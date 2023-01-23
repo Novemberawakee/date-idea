@@ -1,0 +1,44 @@
+body {
+    background-color: #F2E5E5;
+}
+
+.header, .img, .question, .btn {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2B3A55;
+    width: 600px;
+    text-align: center;
+}
+
+#one, #two {
+    padding: 20px;
+    margin: 3px;
+    background-color: #2B3A55;
+    color: #F2E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+@media all and (max-width: 414px) {
+    img {
+        width: 350px;
+    }
+}
+
+@media all and (max-width: 280px) {
+    img {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+}
